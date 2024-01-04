@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SkillHex - Hexadecimal color test</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <h1>SkillHex - Select game mode</h1>
+    <div>
+        <div id="modes">
+            <div class="mode" onclick="location.href='/modes/infinite.html'" info="Random 10 colors will appear, after guessing the correct one, a score point is added.">
+                <img src="/assets/infinity.png">
+            </div>
+            <div class="mode" info="Random 5 colors will appear, your task is to guess as many as possible, an incorrect answer is the end of the game.">
+                <img src="/assets/onelife.png">
+            </div>
+            <div class="mode" info="Random 4 colors will appear, you must guess as many as possible in 120 seconds. You lose a point for a wrong answer.">
+                <img src="/assets/timer.png">
+            </div>
+        </div>
+    </div>
+    <div id="tip"></div>
+</body>
+</html>
